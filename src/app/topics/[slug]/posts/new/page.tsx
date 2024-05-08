@@ -1,5 +1,9 @@
+import React from "react";
+
 interface PostCreatePageProps {}
 
 const PostCreatePage: React.FC<PostCreatePageProps> = () => {
-  return <div>Create a new post</div>;
+  return <div>Show a post</div>;
 };
+
+export default PostCreatePage;
